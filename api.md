@@ -253,12 +253,12 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明     |     请求类型 |  是否必须      |  数据类型   |  schema  |
 | ------------ | -------------------------------- |-----------|--------|----|--- |
 | birthAddr         |      出生地   |     query        |       true      | string   |      |
-            | birthDate         |      出生日期   |     query        |       true      | string   |      |
-            | countryCode         |      国家代码   |     query        |       true      | string   |      |
-            | firstName         |      名字   |     query        |       true      | string   |      |
-            | lastName         |      姓氏   |     query        |       true      | string   |      |
-            | locale         |      语言   |     query        |       false      | string   |      |
-            | sex         |      性别: 0.保密; 1.男; 2.女;   |     query        |       true      | string   |      |
+| birthDate         |      出生日期   |     query        |       true      | string   |      |
+| countryCode         |      国家代码   |     query        |       true      | string   |      |
+| firstName         |      名字   |     query        |       true      | string   |      |
+| lastName         |      姓氏   |     query        |       true      | string   |      |
+| locale         |      语言   |     query        |       false      | string   |      |
+| sex         |      性别: 0.保密; 1.男; 2.女;   |     query        |       true      | string   |      |
             
 
 
@@ -280,8 +280,8 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明                             |    类型 |  schema |
 | ------------ | -------------------|-------|----------- |
 | code     |响应代码      |    string   |       |
-            | data     |响应数据      |    object   |       |
-            | description     |响应描述      |    string   |       |
+| data     |响应数据      |    object   |       |
+| description     |响应描述      |    string   |       |
             
 
 
@@ -321,17 +321,17 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明     |     请求类型 |  是否必须      |  数据类型   |  schema  |
 | ------------ | -------------------------------- |-----------|--------|----|--- |
 | isIdentical         |      永久居住地址是否与现居住地址一致: 1.是; 2.否;   |     query        |       true      | string   |      |
-            | locale         |      语言   |     query        |       false      | string   |      |
-            | permanentAddr         |      永久居住详细地址   |     query        |       false      | string   |      |
-            | permanentCity         |      永久居住城市   |     query        |       false      | string   |      |
-            | permanentCountry         |      永久居住国家   |     query        |       false      | string   |      |
-            | permanentPostcode         |      永久居住邮政编码   |     query        |       false      | string   |      |
-            | permanentProvince         |      永久居住省份   |     query        |       false      | string   |      |
-            | residenceAddr         |      现居住详细地址   |     query        |       true      | string   |      |
-            | residenceCity         |      现居住城市   |     query        |       true      | string   |      |
-            | residenceCountry         |      现居住国家   |     query        |       true      | string   |      |
-            | residencePostcode         |      现居住邮政编码   |     query        |       true      | string   |      |
-            | residenceProvince         |      现居住省份   |     query        |       true      | string   |      |
+| locale         |      语言   |     query        |       false      | string   |      |
+| permanentAddr         |      永久居住详细地址   |     query        |       false      | string   |      |
+| permanentCity         |      永久居住城市   |     query        |       false      | string   |      |
+| permanentCountry         |      永久居住国家   |     query        |       false      | string   |      |
+| permanentPostcode         |      永久居住邮政编码   |     query        |       false      | string   |      |
+| permanentProvince         |      永久居住省份   |     query        |       false      | string   |      |
+| residenceAddr         |      现居住详细地址   |     query        |       true      | string   |      |
+| residenceCity         |      现居住城市   |     query        |       true      | string   |      |
+| residenceCountry         |      现居住国家   |     query        |       true      | string   |      |
+| residencePostcode         |      现居住邮政编码   |     query        |       true      | string   |      |
+| residenceProvince         |      现居住省份   |     query        |       true      | string   |      |
 
 
 
@@ -353,8 +353,8 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明                             |    类型 |  schema |
 | ------------ | -------------------|-------|----------- |
 | code     |响应代码      |    string   |       |
-            | data     |响应数据      |    object   |       |
-            | description     |响应描述      |    string   |       |
+| data     |响应数据      |    object   |       |
+| description     |响应描述      |    string   |       |
             
 
 
@@ -394,17 +394,17 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明     |     请求类型 |  是否必须      |  数据类型   |  schema  |
 | ------------ | -------------------------------- |-----------|--------|----|--- |
 | companyName         |      公司名称   |     query        |       false      | string   |      |
-            | employmentStatus         |      就业状态: 1.在职; 2.个体经营; 3.退休; 4.无业; 5.学生;   |     query        |       true      | string   |      |
-            | fundSource         |      资金来源: 1.工资; 2.储蓄; 3.礼物/遗产; 4.营运资金; 5.出售物业; 6.汇款; 7.养老金; 8.补贴; 9.彩票; 10.捐款;   |     query        |       false      | string   |      |
-            | income         |      年收入(单位: 美元)   |     query        |       true      | string   |      |
-            | incomeSource         |      收入来源: 1.薪水; 2.家庭成员或海外汇款; 3.个人储蓄; 4.其他;   |     query        |       true      | string   |      |
-            | incomeSourceOther         |      其他收入来源   |     query        |       false      | string   |      |
-            | locale         |      语言   |     query        |       false      | string   |      |
-            | natureBusiness         |      行业: 1.专业; 2.家务; 3.私企雇员; 4.政府雇员; 5.创业/企业家; 6.医生; 7.律师; 8.牙医; 9.工程师; 10.建筑师; 11.会计; 12.银行家; 13.运动员; 14.家庭主妇; 15.海外劳工; 99.其他职业;   |     query        |       false      | string   |      |
-            | position         |      职位   |     query        |       false      | string   |      |
+| employmentStatus         |      就业状态: 1.在职; 2.个体经营; 3.退休; 4.无业; 5.学生;   |     query        |       true      | string   |      |
+| fundSource         |      资金来源: 1.工资; 2.储蓄; 3.礼物/遗产; 4.营运资金; 5.出售物业; 6.汇款; 7.养老金; 8.补贴; 9.彩票; 10.捐款;   |     query        |       false      | string   |      |
+| income         |      年收入(单位: 美元)   |     query        |       true      | string   |      |
+| incomeSource         |      收入来源: 1.薪水; 2.家庭成员或海外汇款; 3.个人储蓄; 4.其他;   |     query        |       true      | string   |      |
+| incomeSourceOther         |      其他收入来源   |     query        |       false      | string   |      |
+| locale         |      语言   |     query        |       false      | string   |      |
+| natureBusiness         |      行业: 1.专业; 2.家务; 3.私企雇员; 4.政府雇员; 5.创业/企业家; 6.医生; 7.律师; 8.牙医; 9.工程师; 10.建筑师; 11.会计; 12.银行家; 13.运动员; 14.家庭主妇; 15.海外劳工; 99.其他职业;   |     query        |       false      | string   |      |
+| position         |      职位   |     query        |       false      | string   |      |
     |
-            | taxNo         |      税号   |     query        |       false      | string   |      |
-            | taxType         |      税号类型: 1.TIN; 2.SSS; 3.GSIS   |     query        |       false      | string   |      |           
+| taxNo         |      税号   |     query        |       false      | string   |      |
+| taxType         |      税号类型: 1.TIN; 2.SSS; 3.GSIS   |     query        |       false      | string   |      |           
 
 
 
@@ -426,8 +426,8 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明                             |    类型 |  schema |
 | ------------ | -------------------|-------|----------- |
 | code     |响应代码      |    string   |       |
-            | data     |响应数据      |    object   |       |
-            | description     |响应描述      |    string   |       |
+| data     |响应数据      |    object   |       |
+| description     |响应描述      |    string   |       |
             
 
 
@@ -467,10 +467,10 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明     |     请求类型 |  是否必须      |  数据类型   |  schema  |
 | ------------ | -------------------------------- |-----------|--------|----|--- |
 | cardFrontFile         |      证件正面照   |     formData        |       false      | file   |      |
-            | cardNo         |      证件号码   |     query        |       true      | string   |      |
-            | cardType         |      证件类型 1护照 2身份证  3Employee ID 4 SSS  5 GSIS 6 TIN  7PRC Reg.No. 8 NBI Clearance 9 Senior Citizen ID 10 Student ID 11 Integrated Bar of the Philippines ID(菲律宾籍） 12 OWWA ID 13 OFW ID 14 SEAMAN'S BOOK 15 POSTAL ID  16 DIGITIZED VOTER'S ID 17 LICENSE TO CARRY FIREARMS 18 PHILIPPINE RETIREMENT AUTHORITY ID 19 驾驶证 (菲律宾籍） 20外国人登记证明书 (菲律宾籍）   |     query        |       true      | string   |      |
-            | cardValidityPeriod         |      证件有效期   |     query        |       true      | string   |      |
-            | handSignFile         |      手持签名照   |     formData        |       false      | file   |      |
+| cardNo         |      证件号码   |     query        |       true      | string   |      |
+| cardType         |      证件类型 1护照 2身份证  3Employee ID 4 SSS  5 GSIS 6 TIN  7PRC Reg.No. 8 NBI Clearance 9 Senior Citizen ID 10 Student ID 11 Integrated Bar of the Philippines ID(菲律宾籍） 12 OWWA ID 13 OFW ID 14 SEAMAN'S BOOK 15 POSTAL ID  16 DIGITIZED VOTER'S ID 17 LICENSE TO CARRY FIREARMS 18 PHILIPPINE RETIREMENT AUTHORITY ID 19 驾驶证 (菲律宾籍） 20外国人登记证明书 (菲律宾籍）   |     query        |       true      | string   |      |
+| cardValidityPeriod         |      证件有效期   |     query        |       true      | string   |      |
+| handSignFile         |      手持签名照   |     formData        |       false      | file   |      |
 
 
 
@@ -492,8 +492,8 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明                             |    类型 |  schema |
 | ------------ | -------------------|-------|----------- |
 | code     |响应代码      |    string   |       |
-            | data     |响应数据      |    object   |       |
-            | description     |响应描述      |    string   |       |
+| data     |响应数据      |    object   |       |
+| description     |响应描述      |    string   |       |
             
 
 
@@ -555,8 +555,8 @@ API Key 包括以下两部分
 | 参数名称         | 参数说明                             |    类型 |  schema |
 | ------------ | -------------------|-------|----------- |
 | code     |响应代码      |    string   |       |
-            | data     |响应数据      |    object   |       |
-            | description     |响应描述      |    string   |       |
+| data     |响应数据      |    object   |       |
+| description     |响应描述      |    string   |       |
             
 
 
