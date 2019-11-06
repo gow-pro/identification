@@ -373,7 +373,7 @@ API Key 包括以下两部分
 
 
 
-## 认证第三步 - 收入来源
+## 认证第三步 - 收入信息
 
 **接口地址** `/openapi/v1/verified/userVerifiedStepThree.do`
 
